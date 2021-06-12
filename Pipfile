@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+pandas = "==1.2.4"
+sklearn = "==0.0"
+matplotlib = "==3.4.2"
+seaborn = "*"
+tqdm = "*"
+xgboost = "*"
+catboost = "*"
+lightgbm = {path = "./readonly/lightgbm-3.2.1-py3-none-win_amd64.whl"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
